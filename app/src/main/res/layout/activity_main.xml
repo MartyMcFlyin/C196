@@ -8,74 +8,45 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="310dp"
-        android:layout_height="218dp"
+        android:layout_width="352dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis. Nisl condimentum id venenatis a. Sit amet venenatis urna cursus eget nunc. Morbi leo urna molestie at elementum eu facilisis. Diam quis enim lobortis scelerisque fermentum dui faucibus in. Eget sit amet tellus cras adipiscing. Massa id neque aliquam vestibulum morbi blandit cursus risus. Et odio pellentesque diam volutpat commodo sed egestas egestas. Pharetra massa massa ultricies mi quis."
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.062" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/termBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="161dp"
-        android:layout_marginTop="186dp"
-        android:layout_marginEnd="156dp"
-        android:layout_marginBottom="90dp"
+        android:layout_width="111dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="4dp"
         android:clickable="true"
         android:text="Terms"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.504" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="320dp"
-        android:layout_height="225dp"
-        android:layout_marginStart="47dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="12dp"
-        android:src="@android:drawable/ic_menu_myplaces"
-        app:layout_constraintBottom_toTopOf="@+id/termBtn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/courseBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="163dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="146dp"
-        android:layout_marginBottom="78dp"
-        android:text="Courses"
+        android:layout_width="111dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="4dp"
         android:clickable="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Courses"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/termBtn" />
 
     <Button
         android:id="@+id/examBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="164dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="159dp"
+        android:layout_width="111dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="8dp"
         android:clickable="true"
-        android:layout_marginBottom="18dp"
         android:text="Exams"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/courseBtn" />
 
