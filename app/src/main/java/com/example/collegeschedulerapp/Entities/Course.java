@@ -10,10 +10,10 @@ public class Course {
     @PrimaryKey(autoGenerate = true)
     private int courseID;
     private String courseName;
-    private Date startDate;
-    private Date endDate;
+    private String startDate;
+    private String endDate;
 
-    public Course(int courseID, String courseName, Date startDate, Date endDate, String courseNotes) {
+    public Course(int courseID, String courseName, String startDate, String endDate, String courseNotes) {
         this.courseID = courseID;
         this.courseName = courseName;
         this.startDate = startDate;
@@ -39,19 +39,19 @@ public class Course {
         this.courseName = courseName;
     }
 
-    public Date getStartDate() {
+    public String getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(Date startDate) {
+    public void setStartDate(String startDate) {
         this.startDate = startDate;
     }
 
-    public Date getEndDate() {
+    public String getEndDate() {
         return endDate;
     }
 
-    public void setEndDate(Date endDate) {
+    public void setEndDate(String endDate) {
         this.endDate = endDate;
     }
 
