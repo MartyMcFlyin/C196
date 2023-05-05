@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/addMenuOp"
+        android:title="Add" />
+    <item
+        android:id="@+id/delMenuOp"
+        android:title="Remove" />
+    <item
+        android:id="@+id/updateMenuOp"
+        android:title="Edit"
+
+        />
+    <item
+        android:id="@+id/cancelMenuOp"
+        android:title="Cancel" />
+</menu>
